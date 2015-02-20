@@ -1,6 +1,10 @@
 Merge_Sets <- function(){
-        #This function merges the datasets and labels and returns a data.frame
-        library(plyr)
+        #This function merges the datasets and labels and returns a txt file with the 
+        #means of the average and stdev accelerometer and gyroscope data.
+        
+        #See the readme.md file on the requirements to get this to run properly.
+        
+        library(plyr)           #make sure you have these two packages installed.
         library(dplyr)
         
         variable_file <- "UCI HAR Dataset/features.txt"
